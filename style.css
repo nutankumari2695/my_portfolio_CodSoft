@@ -21,8 +21,13 @@
     --p-font: 0.941rem;
 }
 
+
 section {
-    padding: 50px 10%;
+    padding: 30px 10%;
+}
+p{
+    font-size: large;
+    color: #000;
 }
 
 body.active {
@@ -186,6 +191,7 @@ header.shadow {
 
 .btn:hover {
     background: var(--hover);
+    background-color: orange;
 }
 
 
@@ -300,8 +306,10 @@ span {
 }
 
 .services-box {
-    padding: 20px;
+    padding: 80px;
+    /* margin: 80px; */
     width: 260px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -581,3 +589,18 @@ form textarea {
         margin-left: 25%;
     }
 }
+
+
+.contact textarea {
+  resize: none;
+}
+
+.contact .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.contact button:hover {
+  background-color: #fd7e14; /* orange hover */
+}
+
